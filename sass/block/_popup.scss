@@ -5,7 +5,7 @@
     right: 0px;
     bottom: 0px;
     overflow: hidden;
-    background-image: url('../../img/popup/fade.png');
+    background-image: url('../img/popup/fade.png');
     background-size: cover;
     z-index: 3;
 }
@@ -32,7 +32,7 @@
         left: 48%;
         width: 30px;
         height: 30px;
-        background-image: url('../../img/popup/Polygon.svg');
+        background-image: url('../img/popup/Polygon.svg');
     }
 }
 .popup__ok {

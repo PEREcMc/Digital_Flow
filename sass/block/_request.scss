@@ -1,5 +1,5 @@
 .request {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/request/request_bg.jpg') 0 0%/50vw no-repeat, #000201;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/request/request_bg.jpg') 0 0%/50vw no-repeat, #000201;
 }
 .request__wrapper {
     display: flex;
@@ -146,7 +146,7 @@
 
 @media (min-width: 1900px) {
     .request {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/request/request_bg.jpg') 0 100%/50vw no-repeat, #000201;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/request/request_bg.jpg') 0 100%/50vw no-repeat, #000201;
     }
 
 }
