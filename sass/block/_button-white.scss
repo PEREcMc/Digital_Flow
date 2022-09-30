@@ -1,0 +1,25 @@
+.button__white {
+    border: 1px solid #fff;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+
+    transition: all 0.3s ease;
+}
+.button__white:hover {
+    background: linear-gradient(90deg, #074D88 0%, #61B3C9 100%);
+    color: #FFF;
+    border: 1px solid white;
+    & .button__arrow-white {
+       path{
+            fill: white;
+       } 
+    }
+}
+.button__arrow-white {
+    & path{
+        transition: fill 0.3s ease;
+    }
+}

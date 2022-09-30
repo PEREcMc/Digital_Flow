@@ -1,0 +1,41 @@
+.footer {
+    background: #17181C;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 0px 102px 0px;
+}
+.footer__logo-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+    transition: all 0.2s ease;
+}
+.footer__logo-link:hover {
+    color: #61B3C9;
+}
+.footer__socials {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.social__icon {
+    transition: all 0.2s ease;
+}
+svg > g > path {
+    transition: all 0.2s ease-in-out;
+}
+.social__icon:hover {
+    & svg > g > path {
+        fill: #61B3C9;
+        stroke: #61B3C9;
+    }
+    & svg > path {
+        stroke: #61B3C9;
+    }
+    transform: scale(1.1);
+}

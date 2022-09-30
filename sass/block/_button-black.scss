@@ -1,0 +1,29 @@
+.button__black {
+    // position: relative;
+    border: 1px solid #000000;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+    transition: all 0.3s ease;
+}
+.button__black:hover {
+    background: linear-gradient(90deg, #074D88 0%, #61B3C9 100%);
+    color: #FFF;
+    border: 1px solid white;
+    & .button__arrow-black {
+       path{
+            fill: white;
+       } 
+    }
+}
+.button__arrow-black {
+    & path{
+        transition: fill 0.3s ease;
+    }
+}
+.button__black:active {
+    // top: 2px
+}
