@@ -36,3 +36,13 @@
 }
 .button__arrow-white {
 }
+
+@media (max-width: 1600px) {
+    .error {
+        width: 100vw;
+        height: 100vh;
+    }
+    .error__wrapper {
+        padding: 92px 0px;
+    }
+}

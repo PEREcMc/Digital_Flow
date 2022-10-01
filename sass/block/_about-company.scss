@@ -64,3 +64,45 @@
 .active-dot {
     background-color: transparent;
 }
+
+@media (max-width: 1200px) {
+    .about-company__wrapper {
+        padding-left: 50px;
+    }
+    .about-company__title {
+        font-size: 35px;
+    }
+    .title__company-about {
+        margin-bottom: 30px;
+    }
+    .about-company__desc {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .about-company {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-company__wrapper {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .about-company__title {
+        text-align: center;
+    }
+    .about-company__desc {
+        text-align: center;
+        max-width: 350px;
+    }
+    .slider-dots__wrapper {
+        flex-direction: row;
+        column-gap: 15px;
+        padding: 30px 0px;
+        align-items: center;
+    }
+}

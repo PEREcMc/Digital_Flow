@@ -77,3 +77,35 @@
         padding-left: 120px;
     }
 }
+@media (max-width: 1200px) {
+    .slider-dots__wrapper {
+        padding-left: 70px;
+    }
+    .title__portfolio {
+        padding: 30px 0px 30px 0px;
+    }
+    img.portfolio__bg {
+        max-width: 80%;
+    }
+    .portfolio__button {
+        bottom: calc(50%);
+        right: calc(50% - 350px);
+    }
+}
+@media (max-width: 500px) {
+    .title__portfolio {
+        padding: 30px 0px 150px 0px;
+    }
+    img.portfolio__bg {
+        max-width: 100%;
+        padding-bottom: 60px;
+    }
+    .portfolio__button {
+        bottom: calc(65%);
+        right: calc(50% - 110px);
+    }
+    .portfolio-dots__wrapper {
+        bottom: 0%;
+        right: 55px;
+    }
+}

@@ -40,3 +40,44 @@
     color: #1A1F25;
     min-width: 430px;
 }
+
+@media (max-width: 1200px) {
+    .our-advantages {
+        background-position-x: -70px;
+    }
+    .our-advantages__wrapper {
+        padding: 0px 70px 150px 50px;
+    }
+    .our-advantages__row {
+        height: 80px;
+    }
+    .title__our-advantages {
+        padding-bottom: 40px;
+    }
+    .our-advantages__desc {
+        min-width: 350px;
+    }
+}
+
+@media (max-width: 500px) {
+    .our-advantages {
+        background-position-x: -285px;
+    }
+    .title__our-advantages {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .our-advantages__wrapper {
+        padding: 0px 0px 50px 0px;
+        display: block;
+    }
+    .our-advantages__column {
+        margin-bottom: 60px;
+    }
+    .our-advantages__desc {
+        min-width: 250px;
+    }
+    .our-advantages__row {
+        height: 120px;
+    }
+}

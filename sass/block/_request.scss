@@ -13,7 +13,6 @@
 .request__form {
     display: flex;
     flex-direction: column;
-
 }
 .request__title {
     font-size: 48px;
@@ -75,7 +74,6 @@
 .request__offer {
     padding: 173px 0px 286px 30px;
     width: 582px;
-
 }
 .title__offer-request {
     text-align: right;
@@ -173,5 +171,47 @@
     .request__offer {
         padding: 50px 0px 50px 30px;
     }
+}
+@media (max-width: 1200px) {
+    .request__wrapper {
+        column-gap: 10px;
+    }
+    .request__form-wrapper {
+        width: 509px;
+        padding: 50px 0px;
+    }
+    .request__title {
+        font-size: 38px;
+    }
+    .title__form {
+        margin-bottom: 40px;
+    }
+}
 
+@media (max-width: 500px) {
+    .request {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/request/request_bg.jpg') 0 0%/100vw no-repeat, #000201;
+    }
+    .request__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .request__form-wrapper {
+        width: inherit;
+        padding: 50px 0px;
+    }
+    .request__offer {
+        padding: 10px 0px 100px 0px;
+        width: inherit;
+    }
+    .request__title {
+        font-size: 35px;
+        text-align: center;
+    }
+    .request__button {
+        align-self: center;
+    }
+    .offer__items-wrapper {
+        row-gap: 20px;
+    }
 }

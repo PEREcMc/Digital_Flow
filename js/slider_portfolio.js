@@ -25,6 +25,13 @@ dots.forEach( (item, index) => {
                 portfolioBg.src = './img/portfolio/work1/work1.png';
                 portfolioButton.style.bottom = 'calc(100%/2)'; 
                 portfolioButton.style.right = 'calc(100%/2 - 500px)';
+                if (window.matchMedia('(max-width: 1200px)').matches) {
+                    portfolioButton.style.right = 'calc(100%/2 - 350px)';
+                }
+                if (window.matchMedia('(max-width: 500px)').matches) {
+                    portfolioButton.style.bottom = 'calc(62%)'; 
+                    portfolioButton.style.right = 'calc(100%/2 - 110px)';
+                }
                 portfolioButton.href = './page_error.html';
                 break;
             default:
@@ -32,3 +39,16 @@ dots.forEach( (item, index) => {
         }
     })
 })
+
+
+function sliderDefault() {
+    if (window.matchMedia('(max-width: 1200px)').matches) {
+        portfolioButton.style.right = 'calc(100%/2 - 350px)';
+    }
+    if (window.matchMedia('(max-width: 500px)').matches) {
+        portfolioButton.style.bottom = 'calc(62%)'; 
+        portfolioButton.style.right = 'calc(100%/2 - 110px)';
+    }
+}
+
+setInterval( sliderDefault, 100);

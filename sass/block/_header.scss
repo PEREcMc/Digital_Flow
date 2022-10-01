@@ -53,3 +53,18 @@
     padding: 20px 30px;
     margin-bottom: 528px;
 }
+
+@media (max-width: 500px) {
+    .nav__wrapper {
+        padding-bottom: 50px;
+    }
+    .header__title {
+        font-size: 40px;
+        text-align: center;
+        line-height: 60px;
+    }
+    .header__button {
+        margin-bottom: 358px;
+    }
+    
+}
