@@ -18,7 +18,10 @@ dots.forEach( (item, index) => {
         changeDot(index);
         switch (index) {
             case 0:
-                
+                portfolio.classList.remove('work1');
+                portfolioBg.src = './img/portfolio/portfolio-bg.png';
+                portfolioButton.style.bottom = 'calc(100%/2)'; 
+                portfolioButton.style.right = 'calc(100%/2 - 500px)';
                 break;
             case 1:
                 portfolio.classList.add('work1');

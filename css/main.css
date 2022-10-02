@@ -213,6 +213,9 @@ body {
   text-align: center;
   padding: 90px 0px 70px 0px; }
 
+.portfolio__bg {
+  transition: all 0.3s ease; }
+
 .portfolio__button {
   position: absolute;
   bottom: 500px;
@@ -272,7 +275,12 @@ body {
 
   .portfolio-dots__wrapper {
     bottom: 0%;
-    right: 55px; } }
+    right: auto; }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 .offer {
   background-color: #1A1F25;
   padding: 90px 0px; }
@@ -374,9 +382,8 @@ body {
     display: block; }
 
   .offer-item__row {
-    max-width: 243px;
-    max-height: 210px;
-    padding: 35px 19px; } }
+    width: 243px;
+    height: 180px; } }
 .button__white {
   border: 1px solid #fff;
   font-weight: 500;
@@ -622,10 +629,13 @@ body {
     font-size: 38px; }
 
   .title__form {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+
+  .title__offer-request {
+    text-align: center; } }
 @media (max-width: 500px) {
   .request {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/request/request_bg.jpg") 0 0%/100vw no-repeat, #000201; }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/request/request_bg.jpg") 0 0%/90vh no-repeat, #000201; }
 
   .request__wrapper {
     display: flex;
@@ -662,6 +672,7 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
+  text-align: center;
   transition: all 0.2s ease; }
 
 .footer__logo-link:hover {
@@ -878,6 +889,17 @@ svg > g > path {
   padding: 20px 30px;
   margin-top: 45px; }
 
+@media (max-width: 500px) {
+  .popup__wrapper {
+    bottom: calc(100vh/2 - 230px);
+    left: calc(100vw/2 - 180px);
+    width: 360px; }
+
+  .popup__desc {
+    font-size: 14px; }
+
+  .popup::after {
+    left: 45%; } }
 .error {
   background-image: url("../img/404.png");
   background-size: cover; }
@@ -918,5 +940,12 @@ svg > g > path {
 
   .error__wrapper {
     padding: 92px 0px; } }
+@media (max-width: 500px) {
+  .error__heading {
+    font-size: 100px;
+    margin-bottom: 0px; }
+
+  .error__sub-heading {
+    font-size: 28px; } }
 
 /*# sourceMappingURL=main.css.map */

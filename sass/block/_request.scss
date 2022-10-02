@@ -186,11 +186,14 @@
     .title__form {
         margin-bottom: 40px;
     }
+    .title__offer-request {
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px) {
     .request {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/request/request_bg.jpg') 0 0%/100vw no-repeat, #000201;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/request/request_bg.jpg') 0 0%/90vh no-repeat, #000201;
     }
     .request__wrapper {
         display: flex;

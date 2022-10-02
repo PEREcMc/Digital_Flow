@@ -73,3 +73,19 @@
 }
 .button__arrow-white {
 }
+
+@media (max-width: 500px) {
+    .popup__wrapper {
+        bottom: calc(100vh/2 - 230px);
+        left: calc(100vw/2 - 180px);
+        width: 360px;
+    }
+    .popup__desc {
+        font-size: 14px;
+    }
+    .popup {
+        &::after {
+            left: 45%;
+        }
+    }
+}

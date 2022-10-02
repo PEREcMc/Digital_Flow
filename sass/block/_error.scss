@@ -46,3 +46,12 @@
         padding: 92px 0px;
     }
 }
+@media (max-width: 500px) {
+    .error__heading {
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    .error__sub-heading {
+        font-size: 28px;
+    }
+}
